@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    
+  }
+  .welcome-section {
+    background-image: url("BUBUR\ AYAM\ HOT.jpeg"); /* Path gambar */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: medium
+    /* styles.css */
+  
+    
+    
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #2f8540;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .icon_menu{
+    font-size: 24px;
+    display: none;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* Main Welcome Section */
+  .welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+  }
+  .welcome-section h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  .welcome-section p {
+    color: #292424;
+    max-width: 600px;
+    margin: auto;
+  }
+  .welcome-section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  .welcome-section button {
+    background-color: #2f8540;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  /* Services Section */
+  #services {
+    background-color: #2f8540;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  #services h2 {
+    font-size: 24px;
+  }
+  #services p {
+    max-width: 600px;
+    margin: auto;
+  }
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  table, th, td {
+    border: 1px solid #fff;
+  }
+  th, td {
+    padding: 15px;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+  }
+  /* Produk Section */
+  #produk {
+      padding: 50px 20px;
+      text-align: center;
+  }
+  #produk h2 {
+      font-size: 24px;
+      color: #333;
+  }
+  #produk p {
+      max-width: 600px;
+      margin: auto;
+      color: #666;
+  }
+  .product-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+  }
+  .product-card {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 15px;
+  }
+  .product-card h3 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  .product-card p {
+      color: #666;
+      font-size: 14px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  #contact h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  #contact form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+  }
+  #contact form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  #contact form input, 
+  #contact form textarea, 
+  #contact form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  #contact form button {
+    background-color: #2f8540;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+  footer {
+    background-color: #2f8540;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  @media(max-width: 768px){
+    nav{
+      flex-wrap: wrap;
+    }
+    nav ul{
+      flex-direction: column;
+      width: 100%;
+      justify-content: end;
+      align-items: center;
+    }
+
+    .hidden{
+      display: none;
+    }
+
+    .icon_menu{
+      display: flex;
+    }
+
+    .welcome-section{
+      flex-direction: column-reverse;
+    }
+
+  }
