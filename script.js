@@ -3,5 +3,5 @@ const menuList = document.getElementById("navigation");
 
 menuIcon.addEventListener("click",()=>{
   menuList.classList.toggle("hidden")
-  alert("HALLO BLACK")
+  alert("HALLO BROW")
 });
