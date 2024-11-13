@@ -6,7 +6,7 @@ body {
     
   }
   .welcome-section {
-    background-image: url("BUBUR\ AYAM\ HOT.jpeg"); /* Path gambar */
+    background-image: url("Desain\ tanpa\ judul\ \(1\).png"); /* Path gambar */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
     font-size: medium
     /* styles.css */
   
-    
+
     
   }
   
@@ -64,9 +64,13 @@ body {
   .welcome-section h2 {
     font-size: 28px;
     color: #333;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .welcome-section p {
-    color: #0b003b;
+    color: #060020;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 600px;
     margin: auto;
   }
